@@ -1,3 +1,13 @@
 spring:
   application:
     name: polaris
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/polaris
+    username: postgres
+    password: 2611
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
